@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'launchcop'
+
+gem_root = File.expand_path('../..', __FILE__)
+rubocop_config = File.join(gem_root, 'config', 'rubocop.yml')
+rubocop_exec_path = Gem.bin_path("rubocop", "rubocop")
+
+system(rubocop_exec_path, '-c', rubocop_config, *ARGV)
