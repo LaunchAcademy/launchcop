@@ -2,6 +2,8 @@
 
 LaunchCop is built on top of [RuboCop](https://github.com/bbatsov/rubocop). When
 you run `launchcop`, it actually just runs RuboCop, but with our configuration.
+The goal is to eventually have a configuration that helps beginners learn best
+practices without driving them crazy.
 
 ## Installation
 
@@ -23,5 +25,5 @@ is that it's going to use our default configuration.
 ## Props
 
 Props to [thoughtbot](http://thoughtbot.com/) and their style guide. The `rubocop.yml` file in this
-repository was actually copied from their
+repository was mostly copied from their
 [Hound](https://github.com/thoughtbot/hound) project.
