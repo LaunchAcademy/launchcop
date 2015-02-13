@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - db/schema.rb
+  #DisplayCopNames: true
 
 AccessorMethodName:
   Enabled: false
@@ -256,4 +257,22 @@ UnderscorePrefixedVariableName:
   Enabled: false
 
 Void:
+  Enabled: false
+
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/SymbolProc:
+  Enabled: false
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/UnneededPercentQ:
+  Enabled: false
+
+Metrics/AbcSize:
   Enabled: false
