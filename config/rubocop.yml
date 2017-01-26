@@ -94,6 +94,9 @@ FlipFlop:
 FormatString:
   Enabled: false
 
+FrozenStringLiteralComment:
+  Enabled: false
+
 GlobalVars:
   Enabled: false
 
@@ -194,7 +197,7 @@ StringLiterals:
 VariableInterpolation:
   Enabled: false
 
-TrailingComma:
+TrailingCommaInLiteral:
   Enabled: false
 
 TrivialAccessors:
@@ -276,3 +279,9 @@ Style/UnneededPercentQ:
 
 Metrics/AbcSize:
   Enabled: false
+
+Metrics/LineLength:
+  Description: 'Limit lines to 80 characters.'
+  StyleGuide: '#80-character-limits'
+  Enabled: true
+  Max: 80
